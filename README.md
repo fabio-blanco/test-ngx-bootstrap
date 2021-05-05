@@ -155,5 +155,7 @@ Note: Some of ngx-bootstrap modules may have other dependencies as
 [ngx-bootstrap documentation](https://valor-software.com/ngx-bootstrap/#/documentation)
 for more information on each module or widget dependence.
 
+## Copyright and license ##
+
 Code and documentation copyright 2021 Fabio M. Blanco. Code released under the
 [MIT License](https://github.com/fabio-blanco/test-ngx-bootstrap/blob/main/LICENSE)
