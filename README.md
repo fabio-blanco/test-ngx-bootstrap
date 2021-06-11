@@ -27,15 +27,21 @@ depend on the javascript jQuery and Popper.js libraries to be able to use the dy
 javascript properties of bootstrap.
 
 If you are using bootstrap with Angular just to be able to use it's css functionalities 
-then you will don't need NGX-bootstrap. However, if you do need some of the bootstrap 
+then you will not need NGX-bootstrap. However, if you do need some of the bootstrap 
 javascript dependant goodies as modal dialogs, tooltip, carrousel, then it is better to
 use some native Angular library as NGX-bootstrap because jQuery as a dom manipulation
-library can interfere in the Angular internals. By doing so, as a plus, you are presented
+library can interfere in the Angular internals . By doing so, as a plus, you are presented
 with some other components and facilities that can shorten your development time.
 
 There is another library called [ng-bootstrap](https://ng-bootstrap.github.io/#/home) 
 that can be used for the same purpose as NGX-bootstrap. Booth of then provide the 
 functionality of all bootstrap widgets and more, like datepicker, rating and typeahead.
+I have made [some tests with ng-bootstrap if you're interested too take a look](https://github.com/fabio-blanco/test-ng-bootstrap).
+
+*Note: Starting with bootstrap 5, it doesn't
+use JQuery and Popper.js anymore but its native pure javascript code can interfere with
+Angular internals too. Therefore, for a safer integration it is better to use a native
+Angular library.*
 
 ## How to ##
 
